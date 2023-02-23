@@ -5,6 +5,15 @@ public class Customer {
   private String name;
   private String username;
   private String password;
+  private boolean authenticate;
+
+  public boolean isAuthenticate() {
+    return authenticate;
+  }
+
+  public void setAuthenticate(boolean authenticate) {
+    this.authenticate = authenticate;
+  }
 
   public Customer(int id, String name, String username, String password, int accountId) {
     setId(id);
@@ -12,6 +21,7 @@ public class Customer {
     setUsername(username);
     setPassword(password);
     setAccountId(accountId);
+    setAuthenticate(false);
   }
 
   public int getId() {
