@@ -1,0 +1,28 @@
+{
+  // Използвайте подсказките, за да видите възможните атрибути.
+  // Посочете, за да видите описания на съществуващите атрибути.
+  // За повече информация посетете: https://go.microsoft.com/fwlink/?linkid=830387
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "type": "java",
+      "name": "Launch SCThread2",
+      "request": "launch",
+      "mainClass": "temp.SCThread2",
+      "projectName": "banking"
+    },
+    {
+      "type": "java",
+      "name": "Launch Current File",
+      "request": "launch",
+      "mainClass": "${file}"
+    },
+    {
+      "type": "java",
+      "name": "Launch ATM",
+      "request": "launch",
+      "mainClass": "temp.SCThread1",
+      "projectName": "banking"
+    }
+  ]
+}
